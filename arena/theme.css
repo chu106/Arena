@@ -1,0 +1,29 @@
+html { 
+    color: black;
+    background-color: white;
+}
+
+body { margin: 0; padding: 0; }
+
+header{ 
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{ 
+    text-align: center;
+    font-size: small;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+a {color:white;text-decoration: none;}         /* Unvisited link  */
+a:visited {color:white;text-decoration: none;} /* Visited link    */
+a:hover {color:#FF00FF;text-decoration: none;}   /* Mouse over link */
+a:active {color:white;text-decoration: none;}  /* Selected link   */

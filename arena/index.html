@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Walk Arena</title>
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <center> <p id="5" style="display:block;"> This Page is password protected as it is developed by a third party and thus is not a relflection of the stylistic quality or trading standards of Arena <sup> TM </sup></p></center>
+    <center> <button onclick="Password()">login</button> <button onclick="logout()">log out</button> </center>
+    <script>
+        function Password() {
+          let attempt = prompt("Please enter the pasword", "Pasword");
+          if (attempt == "Walk The Arena") {
+            document.getElementById("1").style.display='block'
+            document.getElementById("2").style.display='block'
+            document.getElementById("3").style.display='block'
+            document.getElementById("4").style.display='block'
+            document.getElementById("5").style.display='none'
+          } else{ 
+              window.alert("Password Incorrect")
+          }
+        }
+        function logout() { 
+            document.getElementById("1").style.display='none'
+            document.getElementById("2").style.display='none'
+            document.getElementById("3").style.display='none'
+            document.getElementById("4").style.display='none'
+            document.getElementById("5").style.display='block'
+
+        }
+    </script>
+    <nav id="1" style="display:none"> 
+        
+        <a href="TO BE FILLED"> To Be Decided </a> 
+    </nav>
+    <header id="2" style="display:none"> Walk Arena </header>
+        <h1 id="3" style="display:none"> <center> <img src="images/Arena.png" alt="walk arena logo"> </center> </h1>
+        <h2 id="4" style="display:none"> We all get to walk the arena eventually </h2> 
+</body> 
+</html>
